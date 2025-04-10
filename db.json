@@ -1,46 +1,6 @@
 {
   "persons": [
     {
-      "name": "Mary Poppendieck",
-      "number": "39-23-6423122",
-      "id": "4"
-    },
-    {
-      "name": "Grace Hopper",
-      "number": "346345345",
-      "id": "b4e7d1"
-    },
-    {
-      "name": "Alan Turing",
-      "number": "42-77-9876543",
-      "id": "c90d3e"
-    },
-    {
-      "name": "steve jobs",
-      "number": "2342342342",
-      "id": "d13f2a"
-    },
-    {
-      "name": "Margaret Hamilton",
-      "number": "45-10-2837465",
-      "id": "f5b6c7"
-    },
-    {
-      "name": "Tim Berners-Lee",
-      "number": "46-11-3948572",
-      "id": "g6c7d8"
-    },
-    {
-      "name": "Donald Knuth",
-      "number": "48-13-5839201",
-      "id": "i8e9f0"
-    },
-    {
-      "name": "Dennis Ritchie",
-      "number": "49-14-9203847",
-      "id": "j9f0a1"
-    },
-    {
       "name": "Ken Thompson",
       "number": "50-15-1827364",
       "id": "k0a1b2"
@@ -76,19 +36,34 @@
       "number": "80-482-52"
     },
     {
-      "id": "c360",
-      "name": "a",
-      "number": "1"
+      "id": "6b9a",
+      "name": "blyat",
+      "number": "6583-64638"
     },
     {
-      "id": "9bff",
-      "name": "bill gates",
-      "number": "3412412434"
+      "id": "2a13",
+      "name": "Mary Poppendieck",
+      "number": "435345345"
     },
     {
-      "id": "7c65",
-      "name": "mary poppendick",
-      "number": "45345343"
+      "id": "b650",
+      "name": "oleg s",
+      "number": "32423424"
+    },
+    {
+      "id": "65fa",
+      "name": "fjsdfsdf",
+      "number": "324234"
+    },
+    {
+      "id": "b402",
+      "name": "fdsfds",
+      "number": "234324"
+    },
+    {
+      "id": "5fc8",
+      "name": "sdfwefwef",
+      "number": "324234"
     }
   ]
 }

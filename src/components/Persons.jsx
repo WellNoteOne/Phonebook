@@ -13,7 +13,7 @@ const Persons = ({ persons, search, setPersons }) => {
       axios.delete(`http://localhost:3001/persons/${id}`).then((response) => {
         console.log(response);
         setPersons(persons.filter((p) => p.id !== id));
-        alert(`YOU DELETED ${response.data.name}`);
+        alert(`You deleted ${response.data.name}`);
       });
     } else alert(`You saved ${name}`);
   };
