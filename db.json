@@ -1,23 +1,13 @@
 {
   "persons": [
     {
-      "name": "Ada Lovelace",
-      "number": "39-44-5323523",
-      "id": "2"
-    },
-    {
       "name": "Mary Poppendieck",
       "number": "39-23-6423122",
       "id": "4"
     },
     {
-      "name": "Linus Torvalds",
-      "number": "40-55-1234567",
-      "id": "a12f9c"
-    },
-    {
       "name": "Grace Hopper",
-      "number": "41-66-7654321",
+      "number": "346345345",
       "id": "b4e7d1"
     },
     {
@@ -26,14 +16,9 @@
       "id": "c90d3e"
     },
     {
-      "name": "Steve Jobs",
-      "number": "43-88-1029384",
+      "name": "steve jobs",
+      "number": "2342342342",
       "id": "d13f2a"
-    },
-    {
-      "name": "Bill Gates",
-      "number": "44-99-5647382",
-      "id": "e1a2b3"
     },
     {
       "name": "Margaret Hamilton",
@@ -89,6 +74,21 @@
       "id": "6904",
       "name": "Viktor",
       "number": "80-482-52"
+    },
+    {
+      "id": "c360",
+      "name": "a",
+      "number": "1"
+    },
+    {
+      "id": "9bff",
+      "name": "bill gates",
+      "number": "3412412434"
+    },
+    {
+      "id": "7c65",
+      "name": "mary poppendick",
+      "number": "45345343"
     }
   ]
 }

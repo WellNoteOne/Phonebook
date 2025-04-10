@@ -9,6 +9,7 @@ const App = () => {
   const [newName, setNewName] = useState("");
   const [newNumber, setNewNumber] = useState("");
   const [search, setSearch] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const baseUrl = "http://localhost:3001/persons";
 

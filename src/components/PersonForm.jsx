@@ -52,16 +52,18 @@ const PersonForm = ({
         console.log("How you want");
         return;
       }
+    } else {
+      axios
+        .post("http://localhost:3001/persons", newPerson)
+        .then((response) => {
+          setNewName("");
+          setNewNumber("");
+          setPersons(persons.concat(response.data));
+          console.log(response);
+          <h1>Hello</h1>;
+          console.log("Person was added under id:", response.data.id);
+        });
     }
-
-    axios.post("http://localhost:3001/persons", newPerson).then((response) => {
-      setNewName("");
-      setNewNumber("");
-      setPersons(persons.concat(response.data));
-      console.log(response);
-      <h1>Hello</h1>;
-      console.log("Person was added under id:", response.data.id);
-    });
   };
 
   return (
