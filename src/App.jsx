@@ -3,6 +3,7 @@ import Filter from "./components/Filter";
 import Persons from "./components/Persons";
 import axios from "axios";
 import Notification from "./components/Notification";
+import Backend from "./services/backend";
 
 const App = () => {
   const [persons, setPersons] = useState([]);
