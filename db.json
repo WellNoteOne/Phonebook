@@ -1,11 +1,6 @@
 {
   "persons": [
     {
-      "name": "Ken Thompson",
-      "number": "50-15-1827364",
-      "id": "k0a1b2"
-    },
-    {
       "name": "Guido van Rossum",
       "number": "51-16-3847562",
       "id": "l1b2c3"
