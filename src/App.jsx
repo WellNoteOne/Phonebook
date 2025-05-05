@@ -71,6 +71,7 @@ const App = () => {
         return;
       }
     } else {
+      console.log("check for notification");
       axios
         .post("http://localhost:3001/persons", newPerson)
         .then((response) => {
@@ -78,10 +79,9 @@ const App = () => {
           setNewNumber("");
           setPersons(persons.concat(response.data));
           console.log(response);
-          <h1>Hello</h1>;
           console.log("Person was added under id:", response.data.id);
         });
-      message(`Person ${newName}was added`, 3000);
+      message(`Person ${newName} was added`, 3000);
     }
   };
 
